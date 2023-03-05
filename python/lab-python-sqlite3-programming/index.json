@@ -1,25 +1,25 @@
 {
     "type": "lab",
     "title": "Python Sqlite3 Programming",
-    "description": "",
+    "description": "In this lab, we will be working with the sqlite3 module in Python. SQLite is a popular lightweight relational database management system that is often used for embedded systems and mobile applications. It is also commonly used for small web applications or other projects that require a small database.In this lab, we will cover the basics of SQLite and how to work with it in Python. We will start with a brief overview of SQLite and then move on to creating a database, inserting data, querying data, and finally updating and deleting data.",
     "difficulty": "Intermediate",
     "time": 25,
     "details": {
         "steps": [
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Creating a Database",
                 "text": "step1.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify1.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             },
             {
@@ -27,15 +27,15 @@
                 "text": "step2.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify2.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             },
             {
@@ -43,15 +43,15 @@
                 "text": "step3.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify3.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             },
             {
@@ -59,15 +59,15 @@
                 "text": "step4.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify4.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             },
             {
@@ -75,15 +75,15 @@
                 "text": "step5.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify5.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             },
             {
@@ -91,15 +91,15 @@
                 "text": "step6.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if this step is completed",
                         "file": "verify6.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/sqlite3"
                 ]
             }
         ],
