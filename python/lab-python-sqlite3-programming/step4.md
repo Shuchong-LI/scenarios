@@ -11,6 +11,9 @@ conn = sqlite3.connect('example.db')
 cursor = conn.execute("SELECT id, name, email, age from users")
 for row in cursor:
     print(row)
+
+# Commit the transaction
+conn.commit()
 ```
 
 This code queries the **users** table and prints out each row. The **SELECT** statement specifies the columns to retrieve from the table.

@@ -8,7 +8,10 @@ import sqlite3
 conn = sqlite3.connect('example.db')
 
 # Update data in the users table
-conn.execute("UPDATE users SET age = 40 WHERE name = 'John Doe'")
+conn.execute("UPDATE users SET age = 40 WHERE name = 'Jane Doe'")
+
+# Commit the transaction
+conn.commit()
 ```
 
-This code updates the **age** column for the row with **name** equals to **'John Doe'**. The **UPDATE** statement specifies the table name, the column to update, and the new value.
+This code updates the **age** column for the row with **name** equals to **'Jane Doe'**. The **UPDATE** statement specifies the table name, the column to update, and the new value.
