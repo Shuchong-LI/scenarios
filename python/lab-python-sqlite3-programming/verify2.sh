@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# Check if the users table exists in database.db
+# Check if the table users exists in example.db
 if ! sqlite3 /home/labex/project/example.db "SELECT name FROM sqlite_master WHERE type='table' AND name='users';"; then
     echo "users table does not exist"
     exit 1
