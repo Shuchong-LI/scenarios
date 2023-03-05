@@ -25,7 +25,7 @@ class Calculator:
 
     def divide(self, a: float, b: float) -> float:
         #Return the quotient of two numbers.
-        Raises a ValueError if b is zero.
+        #Raises a ValueError if b is zero.
         if b == 0:
             raise ValueError(\"Cannot divide by zero\")
         return a / b
