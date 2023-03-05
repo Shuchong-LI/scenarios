@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# Install sqlite3
+sudo apt-get install sqlite3
+
 # Install the sqlite3 package using pip
 pip install sqlite3
 
