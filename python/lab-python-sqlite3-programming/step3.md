@@ -16,3 +16,9 @@ conn.commit()
 ```
 
 This code inserts two new rows into the **users** table. The **INSERT** **INTO** statement specifies the table name and the values to insert into the table.
+
+Then run the command below:
+
+```bash
+python3 sqlite3_programming.py
+```

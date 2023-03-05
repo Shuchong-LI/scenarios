@@ -15,3 +15,9 @@ conn.commit()
 ```
 
 This code deletes the row with **name** equals to **'Jane Doe'** from the **users** table. The **DELETE FROM** statement specifies the table name and the condition for deleting rows.
+
+Then run the command below:
+
+```bash
+python3 sqlite3_programming.py
+```

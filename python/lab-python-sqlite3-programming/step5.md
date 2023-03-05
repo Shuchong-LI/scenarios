@@ -15,3 +15,9 @@ conn.commit()
 ```
 
 This code updates the **age** column for the row with **name** equals to **'Jane Doe'**. The **UPDATE** statement specifies the table name, the column to update, and the new value.
+
+Then run the command below:
+
+```bash
+python3 sqlite3_programming.py
+```

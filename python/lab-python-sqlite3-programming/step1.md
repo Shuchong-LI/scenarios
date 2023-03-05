@@ -10,3 +10,9 @@ conn = sqlite3.connect('example.db')
 ```
 
 The **connect** function creates a new database if the specified database does not exist. If the database already exists, it will connect to it. The **conn** variable represents a connection to the database.
+
+Then run the command below:
+
+```bash
+python3 sqlite3_programming.py
+```
