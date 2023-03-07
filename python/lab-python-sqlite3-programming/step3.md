@@ -1,4 +1,5 @@
 # Inserting Data
+
 After you have created a table, you can start inserting data into it. Here is an example of how to insert data:
 
 ```python

@@ -1,4 +1,5 @@
 # Deleting Data
+
 You can also delete data from the table by using a DELETE statement. Here is an example of how to delete data:
 
 ```python

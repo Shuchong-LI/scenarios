@@ -1,4 +1,5 @@
 # Updating Data
+
 You can also update existing data in the table by using an `UPDATE` statement. Here is an example of how to update data:
 
 ```python

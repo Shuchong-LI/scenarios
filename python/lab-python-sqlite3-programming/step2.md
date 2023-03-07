@@ -16,8 +16,9 @@ conn.execute('''CREATE TABLE users
               age INTEGER);''')
 
 # Commit the transaction
-conn.commit()           
+conn.commit()
 ```
+
 This code creates a new table called `users` with four columns: `id`, `name`,`email`, and `age`. The `id` column is the primary key, which means that it is unique for each row and is used to identify each row in the table.
 
 Then run the command below:

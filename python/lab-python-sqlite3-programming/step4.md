@@ -1,4 +1,5 @@
 # Querying Data
+
 Once you have inserted data into the table, you can query it to retrieve data. Here is an example of how to query data:
 
 ```python
@@ -23,4 +24,3 @@ Then run the command below:
 ```bash
 python3 sqlite3_programming.py
 ```
-
