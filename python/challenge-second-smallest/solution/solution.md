@@ -1,4 +1,5 @@
 # Solution
+
 ```python
 def second_smallest(numbers: list[int]) -> int:
     """
@@ -7,7 +8,7 @@ def second_smallest(numbers: list[int]) -> int:
     """
     if len(numbers) < 2:
         return None
-    
+
     min1 := float('inf')
     min2 := float('inf')
     for num in numbers:
