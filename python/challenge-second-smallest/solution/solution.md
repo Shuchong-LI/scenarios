@@ -9,8 +9,8 @@ def second_smallest(numbers: list[int]) -> int:
     if len(numbers) < 2:
         return None
 
-    min1 := float('inf')
-    min2 := float('inf')
+    (min1 := float('inf'))
+    (min2 := float('inf'))
     for num in numbers:
         if num <= min1:
             min2 = min1
