@@ -32,15 +32,15 @@
         "finish": {
             "text": "finish.md"
         },
-    "assets": {
-        "host01": [
-          {
-            "file": "calculator_unittest.py",
-            "target": "/home/labex/project",
-            "chmod": "ugo+rwx"
-          }
-        ]
-      }
+        "assets": {
+            "host01": [
+                {
+                    "file": "calculator_unittest.py",
+                    "target": "/home/labex/project",
+                    "chmod": "ugo+rwx"
+                }
+            ]
+        }
     },
     "backend": {
         "imageid": "webide-ubuntu:2204"
