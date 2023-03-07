@@ -15,7 +15,7 @@ conn.execute("INSERT INTO users (name, email, age) VALUES ('Jane Doe', 'jane@exa
 conn.commit()
 ```
 
-This code inserts two new rows into the **users** table. The **INSERT** **INTO** statement specifies the table name and the values to insert into the table.
+This code inserts two new rows into the `users` table. The `INSERT INTO` statement specifies the table name and the values to insert into the table.
 
 Then run the command below:
 

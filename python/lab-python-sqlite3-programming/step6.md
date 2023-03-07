@@ -14,7 +14,7 @@ conn.execute("DELETE FROM users WHERE name = 'Jane Doe'")
 conn.commit()
 ```
 
-This code deletes the row with **name** equals to **'Jane Doe'** from the **users** table. The **DELETE FROM** statement specifies the table name and the condition for deleting rows.
+This code deletes the row with `name` equals to `'Jane Doe'` from the `users` table. The `DELETE FROM` statement specifies the table name and the condition for deleting rows.
 
 Then run the command below:
 

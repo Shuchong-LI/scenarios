@@ -16,7 +16,7 @@ for row in cursor:
 conn.commit()
 ```
 
-This code queries the **users** table and prints out each row. The **SELECT** statement specifies the columns to retrieve from the table.
+This code queries the `users` table and prints out each row. The `SELECT` statement specifies the columns to retrieve from the table.
 
 Then run the command below:
 
