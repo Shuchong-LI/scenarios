@@ -6,7 +6,7 @@ class Calculator:
     def add(self, a: float, b: float) -> float:
         #Return the sum of two numbers.
         return a + b
-
+        
     def subtract(self, a: float, b: float) -> float:
         #Return the difference between two numbers.
         return a - b
@@ -23,4 +23,11 @@ class Calculator:
         return a / b
         
     
-#TODO: implement unittest for the methods above"
+class TestCalculator(unittest.TestCase):
+    #TODO:Tests for the Calculator class.
+    pass
+
+
+
+if __name__ == '__main__':
+    unittest.main()
