@@ -1,11 +1,12 @@
 # Creating Arrays
-
-Before we can start working with arrays, we need to create them. NumPy offers several methods for creating arrays, such as:
-
 Open up a new Python interpreter.
 ```bash
 python3
 ```
+
+Before we can start working with arrays, we need to create them. NumPy offers several methods for creating arrays, such as:
+
+
 ## 1. np.array()
 This function creates an array from a Python list or tuple.
 ```python
