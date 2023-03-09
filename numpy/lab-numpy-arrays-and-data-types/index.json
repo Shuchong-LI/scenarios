@@ -7,7 +7,7 @@
     "details": {
         "steps": [
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Creating Arrays",
                 "text": "step1.md",
                 "verify": [
                     {
@@ -51,11 +51,11 @@
                 ]
             },
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Accessing Elements",
                 "text": "step2.md",
                 "verify": [
                     {
-                        "name": "Check accessing elements",
+                        "name": "Check accessing elements.",
                         "file": "verify2.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
@@ -67,11 +67,11 @@
                 ]
             },
             {
-                "title": "Check modifying elements",
+                "title": "Modifying Elements",
                 "text": "step3.md",
                 "verify": [
                     {
-                        "name": "Check the use of data types",
+                        "name": "Check modifying elements.",
                         "file": "verify3.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
@@ -83,28 +83,12 @@
                 ]
             },
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Data Types",
                 "text": "step4.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check the use of data types.",
                         "file": "verify4.sh",
-                        "hint": "Please follow the steps to complete the operation.",
-                        "timeout": 0,
-                        "showstderr": false
-                    }
-                ],
-                "skills": [
-                    "Please copy the skill ID from the official skill tree"
-                ]
-            },
-            {
-                "title": "Please replace this text with the title of the step",
-                "text": "step5.md",
-                "verify": [
-                    {
-                        "name": "Please replace this text with the target of the verify script",
-                        "file": "verify5.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
