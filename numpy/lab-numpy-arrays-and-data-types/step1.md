@@ -2,6 +2,10 @@
 
 Before we can start working with arrays, we need to create them. NumPy offers several methods for creating arrays, such as:
 
+Open up a new Python interpreter.
+```bash
+python3
+```
 ## 1. np.array()
 This function creates an array from a Python list or tuple.
 ```python
@@ -53,3 +57,5 @@ This function creates an array with evenly spaced values between two endpoints.
 my_array = np.linspace(0, 1, 5)
 print(my_array)  # Output: [0.   0.25 0.5  0.75 1.  ]
 ```
+
+**Close the python interpreter with ctrl+D before you click the next button.**

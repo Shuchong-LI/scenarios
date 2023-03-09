@@ -1,7 +1,14 @@
 # Accessing Elements
 
 To access an element in a one-dimensional array, we can use its index.
+
+Open up a new Python interpreter.
+```bash
+python3
+```
 ```python
+import numpy as np
+
 my_array = np.array([1, 2, 3, 4, 5])
 print(my_array[0])  # Output: 1
 ```
@@ -10,3 +17,5 @@ To access an element in a multidimensional array, we need to specify its positio
 my_array = np.array([[1, 2], [3, 4], [5, 6]])
 print(my_array[1, 0])  # Output: 3
 ```
+
+**Close the python interpreter with ctrl+D before you click the next button.**

@@ -24,8 +24,16 @@ complex128 | Complex number represented by two 64-bit floats
 bool_ | Boolean
 object_ | Object (can hold any Python object)
 
+
+Open up a new Python interpreter.
+```bash
+python3
+```
+
 To specify a data type for an array, we can use the dtype parameter.
 ```python
+import numpy as np
+
 # Creating an array with a specific data type
 my_array = np.array([1, 2, 3], dtype=np.float64)
 print(my_array)  # Output: [1. 2. 3.]
@@ -37,3 +45,4 @@ my_array = np.array([1, 2, 3], dtype=np.int32)
 my_array = my_array.astype(np.float64)
 print(my_array)  # Output: [1. 2. 3.]
 ```
+**Close the python interpreter with ctrl+D before you click the next button.**
