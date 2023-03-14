@@ -1,11 +1,5 @@
 # Accessing Elements
 
-Open up a new Python interpreter.
-
-```bash
-python3
-```
-
 To access an element in a one-dimensional array, we can use its index.
 
 ```python

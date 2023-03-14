@@ -1,11 +1,5 @@
 # Modifying Elements
 
-Open up a new Python interpreter.
-
-```bash
-python3
-```
-
 We can modify the value of an element in an array by assigning a new value to it.
 
 ```python
