@@ -27,8 +27,6 @@ NumPy arrays can store elements of different data types, such as integers, float
 To specify a data type for an array, we can use the dtype parameter.
 
 ```python
-import numpy as np
-
 # Creating an array with a specific data type
 my_array = np.array([1, 2, 3], dtype=np.float64)
 print(my_array)  # Output: [1. 2. 3.]

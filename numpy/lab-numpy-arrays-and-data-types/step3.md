@@ -3,8 +3,6 @@
 We can modify the value of an element in an array by assigning a new value to it.
 
 ```python
-import numpy as np
-
 my_array = np.array([1, 2, 3])
 my_array[2] = 4
 print(my_array)  # Output: [1 2 4]
