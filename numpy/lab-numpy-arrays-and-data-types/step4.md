@@ -23,7 +23,6 @@ NumPy arrays can store elements of different data types, such as integers, float
 | bool\_     | Boolean                                         |
 | object\_   | Object (can hold any Python object)             |
 
-
 To specify a data type for an array, we can use the dtype parameter.
 
 ```python
@@ -40,4 +39,3 @@ my_array = np.array([1, 2, 3], dtype=np.int32)
 my_array = my_array.astype(np.float64)
 print(my_array)  # Output: [1. 2. 3.]
 ```
-

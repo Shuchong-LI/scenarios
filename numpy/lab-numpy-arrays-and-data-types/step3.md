@@ -15,4 +15,3 @@ my_array = np.array([1, 2, 3, 4, 5])
 my_array[1:4] = [6, 7, 8]
 print(my_array)  # Output: [1 6 7 8 5]
 ```
-
