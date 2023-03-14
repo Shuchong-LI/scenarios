@@ -1,6 +1,6 @@
 # Creating Arrays
 
-Open up a new Python interpreter.
+Open up a new Python interpreter in Ternimal.
 
 ```bash
 python3
@@ -73,4 +73,3 @@ my_array = np.linspace(0, 1, 5)
 print(my_array)  # Output: [0.   0.25 0.5  0.75 1.  ]
 ```
 
-**Close the python interpreter with ctrl+D before you click the next button.**

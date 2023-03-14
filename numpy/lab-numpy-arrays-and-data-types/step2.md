@@ -22,4 +22,3 @@ my_array = np.array([[1, 2], [3, 4], [5, 6]])
 print(my_array[1, 0])  # Output: 3
 ```
 
-**Close the python interpreter with ctrl+D before you click the next button.**

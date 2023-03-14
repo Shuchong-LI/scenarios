@@ -24,4 +24,3 @@ my_array[1:4] = [6, 7, 8]
 print(my_array)  # Output: [1 6 7 8 5]
 ```
 
-**Close the python interpreter with ctrl+D before you click the next button.**
