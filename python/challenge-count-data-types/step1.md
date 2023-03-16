@@ -38,7 +38,7 @@ count_data_types([1, 2.5, 'hello', True, [1, 2, 3], (1, 2, 3), {'a': 1, 'b': 2},
 Output:
 
 ```
-{'int': 2, 'float': 1, 'str': 1, 'bool': 1, 'list': 1, 'tuple': 1, 'dict': 1, 'set': 1}
+{'int': 1, 'float': 1, 'str': 1, 'bool': 1, 'list': 1, 'tuple': 1, 'dict': 1, 'set': 1}
 ```
 
 ## Requirements
