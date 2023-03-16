@@ -13,7 +13,9 @@ The list may contain the following data types:
 
 ## TODO
 Please complete the function below in the given file `count_data_types.py`. 
-`def count_data_types(data: List[Union[int, float, str, bool, list, tuple, dict, set]]) -> Dict[str, int]:`
+```python
+def count_data_types(data: List[Union[int, float, str, bool, list, tuple, dict, set]]) -> Dict[str, int]:
+```
 
 ## Input
 A list of data types, where 1 <= len(data) <= 10^5.

@@ -39,7 +39,7 @@
                 {
                     "file": "count_data_types.py",
                     "target": "/home/labex/project",
-                    "chomod": "777"
+                    "chmod": "777"
                 }
             ]
         }
