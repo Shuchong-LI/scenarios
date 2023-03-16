@@ -38,7 +38,8 @@
                 },
                 {
                     "file": "count_data_types.py",
-                    "target": "/home/labex/project"
+                    "target": "/home/labex/project",
+                    "chomod": "777"
                 }
             ]
         }
