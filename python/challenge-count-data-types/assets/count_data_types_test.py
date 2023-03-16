@@ -8,7 +8,7 @@ class TestCountDataTypes(unittest.TestCase):
     def test_count_data_types(self):
         data = [1, 2.5, 'hello', True, [1, 2, 3], (1, 2, 3), {'a': 1, 'b': 2}, {1, 2, 3}]
         result = count_data_types(data)
-        self.assertEqual(result, {'int': 2, 'float': 1, 'str': 1, 'bool': 1, 'list': 1, 'tuple': 1, 'dict': 1, 'set': 1})
+        self.assertEqual(result, {'int': 1, 'float': 1, 'str': 1, 'bool': 1, 'list': 1, 'tuple': 1, 'dict': 1, 'set': 1})
 
         data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         result = count_data_types(data)
