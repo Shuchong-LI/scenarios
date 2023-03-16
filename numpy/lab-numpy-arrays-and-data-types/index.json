@@ -11,6 +11,12 @@
                 "text": "step1.md",
                 "verify": [
                     {
+                        "name": "Check if open the Python shell.",
+                        "file": "verify0.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false
+                    },                    {
                         "name": "Check np.array()",
                         "file": "verify1-1.sh",
                         "hint": "Please follow the steps to complete the operation.",

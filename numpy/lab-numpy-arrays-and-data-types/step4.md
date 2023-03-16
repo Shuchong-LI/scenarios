@@ -31,7 +31,7 @@ my_array = np.array([1, 2, 3], dtype=np.float64)
 print(my_array)  # Output: [1. 2. 3.]
 ```
 
-We can also convert an array to a different data type using the astype() method.
+We can also convert an array to a different data type using the `astype()` method.
 
 ```python
 # Converting an array to a different data type
