@@ -13,7 +13,3 @@ Copy the file `mytextfile.txt` to the current directory.
 * You should work on the Linux terminal in the `challenge2` directory.
 * The mytextfile.txt file must be copied using the `cp` command.
 * You should rename the copied file.
-
-## Hint
-
-Use `sudo` to get root privileges.
