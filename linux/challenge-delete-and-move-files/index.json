@@ -66,17 +66,17 @@
             "host01": [
                 {
                     "file": "*",
-                    "target": "/home/Desktop/challenge1",
+                    "target": "/home/laebx/Desktop/challenge1",
                     "chmod": "777"
                 },
                 {
                     "file": "*",
-                    "target": "/home/Desktop/challenge2",
+                    "target": "/home/labex/Desktop/challenge2",
                     "chmod": "777"
                 },
                 {
                     "file": "*",
-                    "target": "/home/Desktop/challenge3",
+                    "target": "/home/labex/Desktop/challenge3",
                     "chmod": "777"
                 }
             ]
