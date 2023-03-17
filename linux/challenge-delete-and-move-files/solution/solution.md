@@ -3,17 +3,17 @@
 ## Challenge 1
 
 ```bash
-rm mytextfile.txt
+sudo rm mytextfile.txt
 ```
 
 ## Challenge 2
 
 ```bash
-cp mytextfile.txt mytextfile2.txt
+sudo cp mytextfile.txt mytextfile2.txt
 ```
 
 ## Challenge 3
 
 ```bash
-mv mytextfile.txt mytextfile3.txt
+sudo mv mytextfile.txt mytextfile3.txt
 ```
