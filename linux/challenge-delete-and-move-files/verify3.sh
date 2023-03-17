@@ -2,9 +2,6 @@
 
 cat ~/.zsh_history | grep -q "mv mytextfile.txt"
 
-nb_files=$(ls -1 /home/labex/Desktop/challenge3 | wc -l)
-if [ $nb_files -ge 2 ]; then
-    exit 0
-else
-    exit 1
-fi
+cd /home/labex/Desktop/challenge3
+
+! test -f mytextfile.txt
