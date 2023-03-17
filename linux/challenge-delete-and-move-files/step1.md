@@ -15,4 +15,4 @@ Delete the file `mytextfile.txt` from the current directory.
 
 ## Hint
 
-Using `sudo` to get root privileges.
+Use `sudo` to get root privileges.

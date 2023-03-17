@@ -1,4 +1,5 @@
 #!/bin/zsh
 
 cd /home/labex/Desktop
-mkdir -m 777 challenge1 challenge2 challenge3 
+mkdir challenge1 challenge2 challenge3 
+chmod 777 challenge*

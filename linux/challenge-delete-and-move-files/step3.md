@@ -16,4 +16,4 @@ Move the file `mytextfile.txt` to the current directory.
 
 ## Hint
 
-Using `sudo` to get root privileges.
+Use `sudo` to get root privileges.
