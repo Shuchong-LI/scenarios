@@ -65,17 +65,17 @@
         "assets": {
             "host01": [
                 {
-                    "file": "*",
-                    "target": "/home/laebx/Desktop/challenge1",
+                    "file": "mytextfile.txt",
+                    "target": "/home/labex/Desktop/challenge1",
                     "chmod": "777"
                 },
                 {
-                    "file": "*",
+                    "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge2",
                     "chmod": "777"
                 },
                 {
-                    "file": "*",
+                    "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge3",
                     "chmod": "777"
                 }
