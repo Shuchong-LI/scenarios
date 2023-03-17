@@ -12,3 +12,7 @@ Delete the file `mytextfile.txt` from the current directory.
 
 * You should work on the Linux terminal in the `challenge1` directory.
 * The mytextfile.txt file must be removed using the `rm` command.
+
+## Hint
+
+Using `sudo` to get root privileges.

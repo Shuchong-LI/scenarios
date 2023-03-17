@@ -13,3 +13,7 @@ Move the file `mytextfile.txt` to the current directory.
 * You should work on the Linux terminal in the `challenge3` directory.
 * The mytextfile.txt file must be moved using the `mv` command.
 * You should rename the moved file.
+
+## Hint
+
+Using `sudo` to get root privileges.
