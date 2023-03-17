@@ -1,57 +1,57 @@
 {
     "type": "challenge",
     "title": "Delete and Move Files",
-    "description": "",
+    "description": "In this challenge, you will learn how to delete and move files in Linux systems.",
     "difficulty": "Beginner",
     "time": 15,
     "details": {
         "steps": [
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Delete and Move Files",
                 "text": "step1.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if the file was removed",
                         "file": "verify1.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please remove the file using the rm command.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "linux/rm"
                 ]
             },
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Copy Files",
                 "text": "step2.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if the file was copied",
                         "file": "verify2.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please copy the file using the cp command.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "linux/cp"
                 ]
             },
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Move Files",
                 "text": "step3.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if the file was moved",
                         "file": "verify3.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please move the file using the mv command.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "linux/mv"
                 ]
             }
         ],
@@ -61,6 +61,25 @@
         },
         "finish": {
             "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "*",
+                    "target": "/home/Desktop/challenge1",
+                    "chmod": "777"
+                },
+                {
+                    "file": "*",
+                    "target": "/home/Desktop/challenge2",
+                    "chmod": "777"
+                },
+                {
+                    "file": "*",
+                    "target": "/home/Desktop/challenge3",
+                    "chmod": "777"
+                }
+            ]
         }
     },
     "backend": {
