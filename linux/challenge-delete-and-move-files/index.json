@@ -85,13 +85,6 @@
                     "target": "/home/labex/Desktop/challenge3",
                     "chmod": "ugo+rwx"
                 }
-            ],
-            "labex":[
-                {
-                    "file": "mytextfile.txt",
-                    "target": "/home/labex/Desktop/challenge1",
-                    "chmod": "ugo+rwx"
-                },
             ]
         }
     },
