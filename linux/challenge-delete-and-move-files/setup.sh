@@ -3,6 +3,5 @@
 cd /home/labex/Desktop
 mkdir challenge1 challenge2 challenge3
 
-cd /home/labex/Desktop/challenge1
-touch mytextfile.txt
+touch /home/labex/Desktop/challenge1/mytextfile.txt
 echo "I love labex" > mytextfile.txt
