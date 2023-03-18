@@ -78,17 +78,17 @@
                 {
                     "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge1",
-                    "chmod": "777"
+                    "chmod": "ugo+rwx"
                 },
                 {
                     "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge2",
-                    "chmod": "777"
+                    "chmod": "ugo+rwx"
                 },
                 {
                     "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge3",
-                    "chmod": "777"
+                    "chmod": "ugo+rwx"
                 }
             ]
         }
