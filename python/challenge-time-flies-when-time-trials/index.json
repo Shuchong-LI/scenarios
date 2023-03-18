@@ -81,11 +81,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/datetime",
-          "python/for_loop",
-          "python/the_range_function"
-        ]
+        "skills": ["python/datetime", "python/for_loop", "python/range"]
       },
       {
         "title": "Convert Your Time",
