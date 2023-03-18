@@ -6,7 +6,7 @@ The folder `challenge3` was created on Desktop. It contains a file named `mytext
 
 ## TODO
 
-* Change the mod bits of the file `mytextfile.txt` to `777`.
+* Change the mod bits of the directory `challenge3` to `777`.
 * Move the file `mytextfile.txt` to the current directory.
 
 ## Requirements

@@ -45,9 +45,9 @@
                 "text": "step3.md",
                 "verify": [
                     {
-                        "name": "Check if change the mod bits of the file",
+                        "name": "Check if change the mod bits",
                         "file": "verify3-1.sh",
-                        "hint": "Please change the mod bits to 777.",
+                        "hint": "Please change the mod bits of the directory 'challenge3' to 777.",
                         "timeout": 0,
                         "showstderr": false
                     },
