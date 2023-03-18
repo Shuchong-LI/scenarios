@@ -77,6 +77,10 @@
             "host01": [
                 {
                     "file": "mytextfile.txt",
+                    "target": "/home/labex/Desktop/challenge1"
+                },
+                {
+                    "file": "mytextfile.txt",
                     "target": "/home/labex/Desktop/challenge2",
                     "chmod": "ugo+rwx"
                 },
