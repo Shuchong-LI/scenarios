@@ -35,7 +35,9 @@
                     }
                 ],
                 "skills": [
-                    "linux/cp"
+                    "linux/cp",
+                    "linux/sudo"
+
                 ]
             },
             {
@@ -43,15 +45,24 @@
                 "text": "step3.md",
                 "verify": [
                     {
+                        "name": "Check if change the mod bits of the file",
+                        "file": "verify3-1.sh",
+                        "hint": "Please change the mod bits to 777.",
+                        "timeout": 0,
+                        "showstderr": false
+                    },
+                    {
                         "name": "Check if the file was moved",
-                        "file": "verify3.sh",
+                        "file": "verify3-2.sh",
                         "hint": "Please move the file using the mv command.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "linux/mv"
+                    "linux/mv",
+                    "linux/sudo",
+                    "linux/chmod"
                 ]
             }
         ],

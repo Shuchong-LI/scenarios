@@ -1,4 +1,4 @@
-# Challenge 2: Copy Files
+# Copy Files
 
 In this challenge, we will use the `cp` command, which is used to copy files or directories in a Linux system.
 
@@ -11,7 +11,7 @@ Copy the file `mytextfile.txt` to the current directory.
 ## Requirements
 
 * You should work on the Linux terminal in the `challenge2` directory.
-* The mytextfile.txt file must be copied using the `cp` command.
+* The `mytextfile.txt` file must be copied using the `cp` command.
 * You should rename the copied file.
 
 ## Hint

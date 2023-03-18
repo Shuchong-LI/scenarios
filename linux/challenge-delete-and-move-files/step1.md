@@ -1,4 +1,4 @@
-# Challenge 1: Delete Files
+# Delete Files
 
 In this challenge, we will use the `rm` command, which is used to remove files or directories from a Linux system.
 
@@ -11,8 +11,4 @@ Delete the file `mytextfile.txt` from the current directory.
 ## Requirements
 
 * You should work on the Linux terminal in the `challenge1` directory.
-* The mytextfile.txt file must be removed using the `rm` command.
-
-## Hint
-
-Use `sudo` to get root privileges.
+* The `mytextfile.txt` file must be removed using the `rm` command.
