@@ -1,4 +1,4 @@
 #!/bin/zsh
  
-ls -l /home/labex/Desktop/ | grep "challenge3" | grep "rwxrwxrwx"
-
+# Verify that the bits mode of the file is 777
+ls -ld /home/labex/Desktop/challenge3 | awk '{print $1}' | grep "rwxrwxrwx"
