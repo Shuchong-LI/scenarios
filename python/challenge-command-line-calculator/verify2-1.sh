@@ -10,19 +10,19 @@ then
     exit 1
 fi
 
-if ! grep "--add" /home/labex/project/calculator.py;
+if ! grep "\--add" /home/labex/project/calculator.py;
 then
     exit 1
 fi
 
-if ! grep "--subtract" /home/labex/project/calculator.py;
+if ! grep "\--subtract" /home/labex/project/calculator.py;
 then
     exit 1
 fi
 
-if ! grep "--multiply" /home/labex/project/calculator.py;
+if ! grep "\--multiply" /home/labex/project/calculator.py;
 then
     exit 1
 fi
 
-grep "--divide" /home/labex/project/calculator.py
+grep "\--divide" /home/labex/project/calculator.py
