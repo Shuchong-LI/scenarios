@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Command Line Calculator",
-    "description": "",
+    "description": "In this challenge, you will write a program that uses the `argparse` module to parse command-line arguments and perform some simple arithmetic operations based on the arguments.",
     "difficulty": "Advanced",
     "time": 25,
     "details": {
