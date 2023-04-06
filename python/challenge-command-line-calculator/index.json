@@ -41,9 +41,16 @@
                         "showstderr": false
                     },
                     {
-                        "name": "Check if add the parameters and parse the arguments.",
+                        "name": "Check if add the parameters.",
                         "file": "verify2-2.sh",
-                        "hint": "Please add the parameters and parse the arguments.",
+                        "hint": "Please add the parameters.",
+                        "timeout": 0,
+                        "showstderr": false
+                    },
+                    {
+                        "name": "Check if parse the arguments.",
+                        "file": "verify2-3.sh",
+                        "hint": "Please parse the arguments.",
                         "timeout": 0,
                         "showstderr": false
                     }
