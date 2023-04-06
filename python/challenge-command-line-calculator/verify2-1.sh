@@ -5,7 +5,12 @@ then
     exit 1
 fi
 
-if ! grep -e "add_argument" -e "--add" /home/labex/project/calculator.py;
+if ! grep "add_argument" /home/labex/project/calculator.py;
+then
+    exit 1
+fi
+
+if ! grep "--add" /home/labex/project/calculator.py;
 then
     exit 1
 fi
@@ -20,7 +25,4 @@ then
     exit 1
 fi
 
-if ! grep "--divide" /home/labex/project/calculator.py;
-then
-    exit 1
-fi
+grep "--divide" /home/labex/project/calculator.py
