@@ -9,22 +9,6 @@ help=$(grep -c "help" /home/labex/project/calculator.py)
 # Check if the nargs is less than 4
 if [ $nargs -lt 4 ]
 then
-    echo "The nargs is less than 4"
-else
-    echo "The nargs is not less than 4"
-fi
-
-# Check if the nargs is less than 4
-if [ $nargs -lt 4 ]
-then
-    echo "The nargs is less than 4"
-else
-    echo "The nargs is not less than 4"
-fi
-
-# Check if the nargs is less than 4
-if [ $nargs -lt 4 ]
-then
     exit 1
 fi
 

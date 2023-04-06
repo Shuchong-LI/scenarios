@@ -18,8 +18,11 @@ def divide(a: int, b: int) -> float:
 
 if __name__ == '__main__':
     # TODO: Creat a parser and a group.
-    pass
+    parser = None
+    group = None
+
     # TODO: Add and parse the arguments.
-    pass
+    # The add arugument is already implemented for you as an example.You will need to add the other three arguments.
+    group.add_argument('-a', '--add', nargs=2, type=int, metavar=('NUM1', 'NUM2'), help='add NUM1 and NUM2')
+
     # TODO: Output management.
-    pass

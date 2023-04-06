@@ -27,7 +27,8 @@
                 ],
                 "skills": [
                     "python/argparse"
-                ]
+                ],
+                "solutions": ["step1.md"]
             },
             {
                 "title": "Add and Parse the Arguments",
@@ -57,7 +58,8 @@
                 ],
                 "skills": [
                     "python/argparse"
-                ]
+                ],
+                "solutions": ["step2.md"]
             },
             {
                 "title": "Output Management",
@@ -73,11 +75,8 @@
                 ],
                 "skills": [
                     "python/if_else"
-                ]
-            },
-            {
-                "title": "Bonus",
-                "text": "step4.md"
+                ],
+                "solutions": ["step3.md"]
             }
         ],
         "intro": {
