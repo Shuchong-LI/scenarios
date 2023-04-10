@@ -2,10 +2,10 @@
 
 In this step, we will start with the most basic usage of the `is` operator.
 
-1. Open the Python Interpreter in shell.
+1. Open the Python Interpreter in the terminal.
 
 ```bash
-python
+python3
 ```
 
 2. Define two variables, `a` and `b`, and assign the same value to both.
