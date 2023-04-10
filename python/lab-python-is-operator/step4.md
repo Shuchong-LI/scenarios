@@ -30,7 +30,7 @@ print(id(obj2.value))
 print(obj1.value is obj2.value)
 ```
 
-The output of the above code should be `False`, since the `value` attribute is a string object and each instance has its own object in memory.
+The output of the above code should be `True`, since the `value` attribute is an immutable object and both instances share the same object in memory.
 
 5. Now, define two instances of the `MyClass` class, `obj3` and `obj4`, with a mutable object as their `value`.
 
@@ -52,4 +52,4 @@ print(id(obj4.value))
 print(obj3.value is obj4.value)
 ```
 
-The output of the above code should be `True`, since the `value` attribute is a mutable object and both instances share the same object in memory.
+The output of the above code should be `False`, since the `value` attribute is a mutable object and both instances do not share the same object in memory.
