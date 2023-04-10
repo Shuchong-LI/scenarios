@@ -37,11 +37,13 @@
             "host01": [
                 {
                     "file": "*_test.py",
-                    "target": "/tmp"
+                    "target": "/tmp",
+                    "chmod": "ugo+rwx"
                 },
                 {
                     "file": "greet.py",
-                    "target": "/home/labex/project"
+                    "target": "/home/labex/project",
+                    "chmod": "ugo+rwx"
                 }
             ]
         }
