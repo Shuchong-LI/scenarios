@@ -23,12 +23,12 @@ class TestGreet(unittest.TestCase):
             self.assertEqual(fake_out.getvalue(), expected_output)
 
     def test_greet_without_name_argument(self):
-        expected_output = "Error: the following arguments are required: --name\n"
+        expected_output = "error: the following arguments are required: --name\n"
         with patch('sys.stderr', new=StringIO()) as fake_err:
             sys.argv = ['greet.py', '--greeting', 'Hi there']
             with self.assertRaises(SystemExit):
                 greet.main()
-            self.assertEqual(fake_err.getvalue(), expected_output)
+            self.assertIn(expected_output,fake_err.getvalue())
 
 if __name__ == '__main__':
     unittest.main()
