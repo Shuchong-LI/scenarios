@@ -22,7 +22,7 @@
                     "python/argparse"
                 ],
                 "solutions": [
-                    "step1-solution.md"
+                    "step1-solution.py"
                 ]
             }
         ],
