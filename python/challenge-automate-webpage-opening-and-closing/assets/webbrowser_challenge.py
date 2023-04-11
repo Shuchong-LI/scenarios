@@ -1,19 +1,17 @@
 import webbrowser
 import argparse
 
-parser = argparse.ArgumentParser(description='Open a web page in your default browser.')
-parser.add_argument('url', help='the URL of the webpage to open')
-parser.add_argument('--new-window', action='store_true', help='open the webpage in a new window')
+# TODO: Create an ArgumentParser object
+parser = None
 
-args = parser.parse_args()
+# TODO: Add the arguments and parse them.
 
-url = args.url
-new_window = args.new_window
 
 try:
-    if new_window:
-        webbrowser.open_new(url)
+    if """ TODO: Check if the user wants to open the URL in a new window.""":
+        # TODO: Open the URL in a new window.
     else:
-        webbrowser.open(url)
+        # TODO: Open the URL in a new tab.
+
 except Exception as e:
-    print("An error occurred:", e)
+    # TODO: Print the error message.

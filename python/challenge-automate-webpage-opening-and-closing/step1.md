@@ -24,7 +24,7 @@ Your program should meet the following requirements:
 
 ## Example
 
-To run the program, save the code to the given file `webbrowser_challenge.py`, open a command prompt or terminal window in the directory where the file is saved, and enter a command similar to the following:
+To run the program, save the code to the given file `webbrowser_challenge.py`, open the `Xfce Terminal` window on the Desktop, and enter a command similar to the following:
 
 ```bash
 python /home/labex/Desktop/webbrowser_challenge.py https://www.google.com --new-window
