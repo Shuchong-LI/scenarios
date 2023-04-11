@@ -38,7 +38,7 @@
         "assets": {
             "host01": [
                 {
-                    "file": "*",
+                    "file": "webbrowser_challenge.py",
                     "target": "/home/labex/project",
                     "chmod": "ugo+rwx"
                 }
