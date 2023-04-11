@@ -24,4 +24,4 @@ fi
 
 # Check if the browser is running.
 
-ps ax | grep "firefox"
+ps -A | grep "firefox"
