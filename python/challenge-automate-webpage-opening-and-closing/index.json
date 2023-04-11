@@ -1,25 +1,27 @@
 {
     "type": "challenge",
     "title": "Automate Webpage Opening and Closing",
-    "description": "",
+    "description": "In this challenge, you'll write a Python program that opens a web page and automatically closes the web browser after a specified amount of time. The program should have an option to open the page in a new tab or window.",
     "difficulty": "Intermediate",
     "time": 25,
     "details": {
         "steps": [
             {
-                "title": "Please replace this text with the title of the step",
+                "title": "Automate Webpage Opening and Closing",
                 "text": "step1.md",
                 "verify": [
                     {
-                        "name": "Please replace this text with the target of the verify script",
+                        "name": "Check if open a webpage in the browser",
                         "file": "verify1.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please make sure the browser is still open after the program is executed.",
                         "timeout": 0,
                         "showstderr": false
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "python/webbrowser",
+                    "python/argparse",
+                    "python/time"
                 ],
                 "solutions": [
                     "step1-solution.md"
@@ -36,8 +38,9 @@
         "assets": {
             "host01": [
                 {
-                    "file": "",
-                    "target": "/tmp"
+                    "file": "*",
+                    "target": "/home/labex/project",
+                    "chmod": "ugo+rwx"
                 }
             ]
         }
