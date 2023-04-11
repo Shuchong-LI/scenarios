@@ -25,8 +25,8 @@ Your program should meet the following requirements:
 
 To run the program, save the code to the given file named `webbrowser_challenge.py`, open a command prompt or terminal window in the directory where the file is saved, and enter a command similar to the following:
 
-```
-python webbrowser_challenge.py https://www.google.com 10 --new-window
+```bash
+python /home/labex/Desktop/webbrowser_challenge.py https://www.google.com 10 --new-window
 ```
 
 This should open Google's homepage in a new window and close the browser after 10 seconds. If you omit the `--new-window` flag, the page will open in the current tab.

@@ -24,4 +24,4 @@ fi
 
 # Check if the browser is running.
 
-pgrep -x "net"
+ps ax | grep "firefox"
