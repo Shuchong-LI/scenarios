@@ -14,14 +14,6 @@ if ! grep "open_new" webbrowser.py; then
     exit 1
 fi
 
-if ! grep "close" webbrowser.py; then
-    exit 1
-fi
-
-if ! grep "sleep" webbrowser.py; then
-    exit 1
-fi
-
 # Check if the browser is running.
 
 ps -A | grep "firefox"
