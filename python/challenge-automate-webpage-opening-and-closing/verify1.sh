@@ -1,16 +1,16 @@
 #!/bin/zsh
 
-# Check if the file webbrowser.py contains the key strings.
+# Check if the file /home/labex/Desktop/webbrowser_challenge.py contains the key strings.
 
-if ! grep "ArgumentParser" webbrowser.py; then
+if ! grep "ArgumentParser" /home/labex/Desktop/webbrowser_challenge.py; then
     exit 1
 fi
 
-if ! grep "parse_args" webbrowser.py; then
+if ! grep "parse_args" /home/labex/Desktop/webbrowser_challenge.py; then
     exit 1
 fi
 
-if ! grep "open_new" webbrowser.py; then
+if ! grep "open_new" /home/labex/Desktop/webbrowser_challenge.py; then
     exit 1
 fi
 
