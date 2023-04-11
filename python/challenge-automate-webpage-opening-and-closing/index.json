@@ -39,7 +39,7 @@
             "host01": [
                 {
                     "file": "webbrowser_challenge.py",
-                    "target": "/home/labex/project",
+                    "target": "/home/labex/Desktop",
                     "chmod": "ugo+rwx"
                 }
             ]
