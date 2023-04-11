@@ -17,13 +17,13 @@ Your program should meet the following requirements:
 1. Import the `webbrowser` and `time` modules.
 2. Use the `argparse` module to parse the command-line arguments.
 3. Store the command-line arguments in variables.
-4. Use the `webbrowser` module to open Google homepage(https://www.google.com) in a new tab or window.
+4. Use the `webbrowser` module to open a webpage in a new tab or window.
 5. Use the `time` module to wait for the specified number of seconds.
 6. Use the `webbrowser` module to close the browser.
    
 ## Example
 
-To run the program, save the code to a file named `webbrowser_challenge.py`, open a command prompt or terminal window in the directory where the file is saved, and enter a command similar to the following:
+To run the program, save the code to the given file named `webbrowser_challenge.py`, open a command prompt or terminal window in the directory where the file is saved, and enter a command similar to the following:
 
 ```
 python webbrowser_challenge.py https://www.google.com 10 --new-window
