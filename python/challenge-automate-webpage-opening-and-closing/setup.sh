@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-gedit /home/Desktop/project/webbrowser_chanllenge.py
+gedit /home/labex/Desktop/webbrowser_challenge.py
