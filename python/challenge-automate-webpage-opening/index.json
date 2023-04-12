@@ -1,6 +1,6 @@
 {
     "type": "challenge",
-    "title": "Automate Webpage Opening and Closing",
+    "title": "Automate Webpage Opening",
     "description": "In this challenge, you'll write a Python program that opens a web page. The program should have an option to open the page in a new tab or window.",
     "difficulty": "Intermediate",
     "time": 25,

@@ -1,4 +1,4 @@
-# Automate Webpage Opening and Closing
+# Automate Webpage Opening
 
 We have already created a Python file called `webbrowser_challenge.py` under the path `/home/labex/project`. You must use this file to write your code.
 
