@@ -9,7 +9,6 @@ Your program should meet the following requirements:
 * Accept two command-line arguments:
   * The URL of the webpage to open
   * An optional flag to open the page in a new tab or window
-  *
 * If the flag is present, the program should open the webpage in a new tab or window, depending on the user's browser preferences. If the flag is not present, the program should open the webpage in the current tab.
 
 ## Instructions
