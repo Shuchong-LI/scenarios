@@ -1,1 +1,3 @@
 # Summary
+
+In this lab, we have explored the `time` package in Python. We have learned how to get the current time, convert seconds to a readable format, delay the program, measure the execution time of a code block, parse a string to a time object, and convert a time object to a string. These functions are useful when working with time-related operations in Python. Remember that the time package is just one of the many packages available in Python for time-related operations. 
