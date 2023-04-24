@@ -33,7 +33,7 @@
         "assets": {
             "host01": [
                 {
-                    "file": "*",
+                    "file": "**/*",
                     "target": "/tmp",
                     "chmod":"777"
                 }
