@@ -1,0 +1,46 @@
+{
+    "type": "lab",
+    "title": "Snake Test",
+    "description": "test",
+    "difficulty": "Beginner",
+    "time": 1,
+    "details": {
+        "steps": [
+            {
+                "title": "Please replace this text with the title of the step",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Please replace this text with the target of the verify script",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/variables"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "*",
+                    "target": "/tmp",
+                    "chmod":"777"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
