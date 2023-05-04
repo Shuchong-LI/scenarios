@@ -1,0 +1,49 @@
+{
+    "type": "challenge",
+    "title": "Snake Demo",
+    "description": "In this challenge, you will know the rules of the game and how to play it. You will also try a demo of the game.",
+    "difficulty": "Beginner",
+    "time": 5,
+    "details": {
+        "steps": [
+            {
+                "title": "Snake Demo",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Please try the demo.",
+                        "file": "verify1.sh",
+                        "hint": "Use python command to execute the game.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "**/*",
+                    "target": "/tmp",
+                    "chomod":"ugo+x"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
