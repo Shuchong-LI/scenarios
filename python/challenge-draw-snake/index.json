@@ -1,0 +1,91 @@
+{
+    "type": "challenge",
+    "title": "Draw Snake",
+    "description": "In this challenge, you will draw a snake using pygame library.",
+    "difficulty": "Intermediate",
+    "time": 15,
+    "details": {
+        "steps": [
+            {
+                "title": "Load Images and Initialize the Snake's Body",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if the images are loaded correctly",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            },
+            {
+                "title": "Handle Snake's Head and Tail",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if the snake's head and tail are handled correctly ",
+                        "file": "verify2.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step2-solution.md"
+                ]
+            },
+            {
+                "title": "Draw the Snake",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Check if the snake is drawn correctly",
+                        "file": "verify3.sh",
+                        "hint": "Please check by running the game.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step3-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "*test.py",
+                    "target": "/tmp"
+                },
+                {
+                    "file": "**/snake_draw_snake.py",
+                    "target": "/home/labex/project",
+                    "chmod": "777"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
