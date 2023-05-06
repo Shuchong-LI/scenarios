@@ -1,0 +1,72 @@
+{
+    "type": "challenge",
+    "title": "3.Move Snake",
+    "description": "In this challenge,you will try to move the snake.",
+    "difficulty": "Intermediate",
+    "time": 15,
+    "details": {
+        "steps": [
+            {
+                "title": "Move the Snake",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if the method draw_snake() is completed",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            },
+            {
+                "title": "KeyDown Events",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if you added the arrow keydown events",
+                        "file": "verify2.sh",
+                        "hint": "Add the arrow keydown events and change the directions.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step2-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "**/snake_move_snake.py",
+                    "target": "/home/laebx/project",
+                    "chmod":"ugo+rwx"
+                },
+                {
+                    "file": "*test.py",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
