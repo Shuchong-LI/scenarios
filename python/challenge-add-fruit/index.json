@@ -1,0 +1,68 @@
+{
+    "type": "challenge",
+    "title": "Add Fruit",
+    "description": "In this challenge, you will add a fruit to the game. The fruit will be displayed on the screen and the snake will eat the fruit to grow longer.",
+    "difficulty": "Beginner",
+    "time": 10,
+    "details": {
+        "steps": [
+            {
+                "title": "Add Fruit Graphics",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if the fruit graphics are added to the game",
+                        "file": "verify1.sh",
+                        "hint": "Please add the 'apple.png' graphic to the game",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            },
+            {
+                "title": "Complete the Fruit Class",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if the fruit class is complete",
+                        "file": "verify2.sh",
+                        "hint": "Please complete the 'TODO' sections",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step2-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "**/snake_add_fruit.py",
+                    "target": "/home/labex/project",
+                    "chmod": "777"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
