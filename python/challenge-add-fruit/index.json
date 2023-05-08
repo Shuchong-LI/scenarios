@@ -43,6 +43,25 @@
                 "solutions": [
                     "step2-solution.md"
                 ]
+            },
+            {
+                "title": "Check Collision",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Check if the collision is detected",
+                        "file": "verify3.sh",
+                        "hint": "Please complete the 'TODO' sections",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step3-solution.md"
+                ]
             }
         ],
         "intro": {
