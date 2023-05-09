@@ -1,0 +1,68 @@
+{
+    "type": "challenge",
+    "title": "Check Game Over",
+    "description": "In this challenge you will learn how to check if the game is over.",
+    "difficulty": "Intermediate",
+    "time": 15,
+    "details": {
+        "steps": [
+            {
+                "title": "Snake Reset Method",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if the snake reset method is implemented",
+                        "file": "verify1.sh",
+                        "hint": "Please follow the requirements in the TODO description.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            },
+            {
+                "title": "Game Over",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if the 'check_fail'method is implemented",
+                        "file": "verify2.sh",
+                        "hint": "Please complete all the TODOs.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/pygame"
+                ],
+                "solutions": [
+                    "step2-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "**/*.py",
+                    "target": "/home/labex/project",
+                    "chmod":"777"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
