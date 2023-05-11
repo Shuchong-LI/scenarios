@@ -1,5 +1,7 @@
 # Screen Initialization
 
+The files are placed in the `/home/labex/project` directory.
+
 ## TODO blocks
 
 1. `cell_size = None` - Choose a cell size. This variable represents the size of each cell in the grid that will be displayed on the screen.

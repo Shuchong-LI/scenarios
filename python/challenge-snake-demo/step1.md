@@ -12,8 +12,9 @@ The game should have a high score system that records the top scores achieved by
 The project should be well-documented with clear explanations of the code and the game mechanics.
 Overall, the goal of this project is to create a fun and engaging version of the classic Snake game that can be enjoyed by players of all ages.
 
-Before start, please try the demo of the game:
+Before starting, please try the demo of the game:
 
-```python
-python /tmp/snake_demo.py
+```bash
+cd /tmp/assets 
+python snake_demo.py
 ```

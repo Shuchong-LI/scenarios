@@ -1,5 +1,7 @@
 # Add Fruit Graphics
 
+The files in '/home/labex/project'are already prepared for you.
+  
 ## TODO blocks
 
 There is only one TODO block in the code:

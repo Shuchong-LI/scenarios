@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-pip3 install pygame
+pip install pygame

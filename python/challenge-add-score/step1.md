@@ -1,5 +1,7 @@
 # Add the Game Font
 
+The file `snake_add_score.py` is prepared for you in `/home/labex/project` directory.
+
 ## 2. List of TODO Blocks and Guidance
 
 There is only one TODO block in this code, which is as follows:

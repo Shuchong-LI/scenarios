@@ -1,6 +1,6 @@
 # Snake Reset Method
 
-The purpose of the reset method is to initialize the snake's starting position and direction.
+The purpose of the reset method is to initialize the snake's starting position and direction.The file `snake_check_game_over.py` is prepared for you in `/home/labex/project` directry. 
 
 ## TODO Blocks
 
