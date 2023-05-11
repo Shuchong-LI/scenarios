@@ -1,6 +1,6 @@
 {
     "type": "challenge",
-    "title": "Screen Initialization",
+    "title": "1.Screen Initialization",
     "description": "In this challenge, you will learn how to initialize a pygame screen session.",
     "difficulty": "Beginner",
     "time": 5,

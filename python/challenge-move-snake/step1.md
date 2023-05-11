@@ -23,4 +23,3 @@ The second TODO block involves moving the snake's body without adding a new bloc
 1. Create a copy of the current body excluding the last block using `body_copy = self.body[:-1]`.
 2. Insert the new head position at the front of the copied body using `body_copy.insert(0, body_copy[0] + self.direction)`.
 3. Update the body by setting `self.body = body_copy[:]`.
-

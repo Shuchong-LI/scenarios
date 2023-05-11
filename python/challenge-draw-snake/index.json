@@ -1,6 +1,6 @@
 {
     "type": "challenge",
-    "title": "Draw Snake",
+    "title": "2.Draw Snake",
     "description": "In this challenge, you will draw a snake using pygame library.",
     "difficulty": "Intermediate",
     "time": 15,
