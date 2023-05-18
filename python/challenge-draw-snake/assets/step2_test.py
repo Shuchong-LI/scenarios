@@ -1,10 +1,10 @@
 import unittest
 import pygame
 from pygame.math import Vector2
-from snake_draw_snake import SNAKE
 
 import sys
 sys.path.append("/home/labex/project")
+from snake_draw_snake import SNAKE
 
 
 class TestSnake(unittest.TestCase):

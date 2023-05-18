@@ -1,9 +1,10 @@
 import unittest
 import pygame
-from snake_draw_snake import SNAKE
 
 import sys
 sys.path.append("/home/labex/project")
+
+from snake_draw_snake import SNAKE
 
 class TestSnake(unittest.TestCase):
     def setUp(self):

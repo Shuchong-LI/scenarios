@@ -63,7 +63,7 @@ class SNAKE:
 					elif previous_block.x == 1 and next_block.y == -1 or previous_block.y == -1 and next_block.x == 1:
 						# TODO: Draw the snake body.
 					elif previous_block.x == 1 and next_block.y == 1 or previous_block.y == 1 and next_block.x == 1:
-						# TODO: Draw the snake body bottom right.
+						# TODO: Draw the snake body.
 
 
 if __name__ == "__main__":
