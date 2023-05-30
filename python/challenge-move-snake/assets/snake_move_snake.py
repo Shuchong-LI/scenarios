@@ -104,7 +104,11 @@ if __name__ == '__main__':
 			if event.type == SCREEN_UPDATE:
 				main_game.update()
 			if event.type == pygame.KEYDOWN:
-				# TODO: Add keydown events and update the direction. 
+				# TODO: Add keydown events.
+				# TODO: Update the direction. 
+				if event.key == pygame.K_UP:
+					if main_game.snake.direction.y != 1:
+						main_game.snake.direction = Vector2(0,-1)
 
 
 

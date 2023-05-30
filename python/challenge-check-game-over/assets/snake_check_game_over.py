@@ -137,13 +137,13 @@ class MAIN:
 	
 	def check_fail(self):
 		# TODO: check if snake is outside of screen
-
+		pass
 		# TODO: check if snake hits itself
+		pass
 		
 	def game_over(self):
 		# TODO: reset game
-		self.snake.reset()
-
+		pass
 if __name__ == '__main__':
 	pygame.mixer.pre_init(44100,-16,2,512)
 	pygame.init()

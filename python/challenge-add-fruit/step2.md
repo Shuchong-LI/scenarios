@@ -18,4 +18,4 @@ The `draw_fruit()` method has a `TODO` block which instructs to draw the fruit. 
 
 ### TODO: Randomize fruit position
 
-The `randomize()` method has a `TODO` block which instructs to randomize the fruit position. To do this, we need to generate two random integers between 0 and `cell_number - 1`. These integers will be used to determine the x and y coordinates of the fruit object. We can then create a `Vector2` object with these coordinates and store it as the position of the fruit object.
+The `randomize()` method has a `TODO` block which instructs to randomize the fruit position. To do this, we need to generate two random integers between 0 and `cell_number - 1` by using the `random.randint()` function. These integers will be used to determine the x and y coordinates of the fruit object. We can then create a `Vector2` object with these coordinates and store it as the position of the fruit object.
